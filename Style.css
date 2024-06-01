@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    color: #333;
+    text-align: center;
+}
+
+.formulario {
+    margin: 20px 0;
+}
+
+.input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin: 2px 200px; /* Ajustado para reducir el margen entre botones */
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px; /* Ajustado para reducir el margen superior */
+}
+
+.lista li {
+    background-color: #fff;
+    margin: 5px 0; /* Ajustado para reducir el margen entre elementos */
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista li .btn {
+    background-color: #ff4c4c;
+}
+
+.lista li .btn:hover {
+    background-color: #ff1a1a;
+}
+
+.acciones {
+    text-align: center;
+    margin-top: 10px; /* Ajustado para reducir el margen superior */
+}
+
+.acciones .btn {
+    margin: 5px; /* Ajustado para reducir el margen entre botones */
+    padding: 10px 20px;
+    background-color: #008CBA;
+}
+
+.acciones .btn:hover {
+    background-color: #007bb5;
+}
